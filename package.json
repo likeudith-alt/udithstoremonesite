@@ -1,0 +1,9 @@
+{
+  "name": "udiya-store-local-demo",
+  "version": "2.1.0",
+  "private": true,
+  "type": "module",
+  "description": "UDITH STORE local-browser demo storefront",
+  "scripts": { "dev": "npx netlify-cli dev", "check": "node --check public/js/local-demo.js && node --check public/js/app.js && node --check public/admin/admin.js" },
+  "devDependencies": { "netlify-cli": "^23.0.0" }
+}
